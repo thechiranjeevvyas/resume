@@ -1,16 +1,15 @@
-
 "use strict";
 // Sweet Alert CDN through JS
 let script = document.createElement("script");
-script.type = 'text/javascript';
-script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
+script.type = "text/javascript";
+script.src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 document.body.appendChild(script);
 
 // Header
 
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">John Doe </a>
+<a class="navbar-brand" href="index.html">Chiranjeev Vyas </a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
@@ -26,7 +25,6 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li>
    <li class="nav-item">
@@ -438,32 +436,29 @@ $(window).on("load", function () {
 
 //send button animation
 
-
 $(function submitAnimation() {
-  const name = document.querySelector("#name")
-  const emailAdress = document.querySelector("#email")
-  const text = document.querySelector("#textArea")
-  const emailPattern = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
+  const name = document.querySelector("#name");
+  const emailAdress = document.querySelector("#email");
+  const text = document.querySelector("#textArea");
+  const emailPattern =
+    /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 
   $("#lnch").on("click", function () {
-
     // Check if the name field is empty or contains a number
-    if (name.value == "" || (/\d/.test(name.value))) {
-      swal("Error !","Please enter a valid name !","error");
+    if (name.value == "" || /\d/.test(name.value)) {
+      swal("Error !", "Please enter a valid name !", "error");
       return;
     }
     // Check if the email field is empty or email is not valid ex: test@@email.com
-    else if (emailAdress.value == "" || !(emailPattern.test(emailAdress.value))) {
-      swal("Error !","Please enter a valid email !","error");
+    else if (emailAdress.value == "" || !emailPattern.test(emailAdress.value)) {
+      swal("Error !", "Please enter a valid email !", "error");
       return;
     }
     // Check if the message field is empty
     else if (text.value == "") {
-      swal("Error !","Please enter a valid message !","error");
+      swal("Error !", "Please enter a valid message !", "error");
       return;
-    }
-    else {
-
+    } else {
       setTimeout(function () {
         $("#lnch").addClass("launching").text("Sending");
         $("#lnch_btn").addClass("launching");
@@ -474,7 +469,7 @@ $(function submitAnimation() {
       }, 1500);
       // Wait for 2.2 seconds so that the send button animation can be fully played before submitting the form
       setTimeout(() => {
-        document.querySelector('form').submit();
+        document.querySelector("form").submit();
       }, 2200);
     }
   });
