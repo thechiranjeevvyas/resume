@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/raema.png",
     place: "Raema Star Solar",
     time: "(May, 2023 - Aug 2024)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    desp: "<li>Designed the whole new website of Raema Solar.</li> <li>Managed all social media handles.</li> <li>Designed all posters and flyers of the company.</li>",
   },
 ];
 
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "Smart India Hackathon",
+    title: "Smart India Hackathon 2023",
     subtitle: "Front-end Developer",
     image: "assets/images/experience-page/sih.png",
     desp: "Smart India Hackathon is a nationwide 36-hour Hackathon organized by the MHRD, Govt. of India. It started in the year 2017 and gaining huge success.",
