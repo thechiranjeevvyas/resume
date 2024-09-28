@@ -22,10 +22,9 @@ const projects = [
     Githublink: "https://github.com/thechiranjeevvyas/dietmate",
   },
   {
-    title: "Flappy Bird",
-    cardImage: "assets/images/project-page/flappybird.png",
-    description: "Flappy bird game built using React.js",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    title: "Maze Solver",
+    cardImage: "assets/images/project-page/maze.png",
+    description: "Automatic Maze solver using C++",
     Previewlink: "",
     Githublink: "",
   },
@@ -35,7 +34,7 @@ const projects = [
     description: "A Distraction Free browser made using python",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/thechiranjeevvyas/Broswer-Using-Python",
   },
   {
     title: "Number Plate Recognizer",
@@ -46,10 +45,12 @@ const projects = [
     Githublink:
       "https://github.com/thechiranjeevvyas/number-plate-recognition-system-using-ml",
   },
+
   {
-    title: "Maze Solver",
-    cardImage: "assets/images/project-page/maze.png",
-    description: "Automatic Maze solver using C++",
+    title: "Flappy Bird",
+    cardImage: "assets/images/project-page/flappybird.png",
+    description: "Flappy bird game built using React.js",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
     Githublink: "",
   },
