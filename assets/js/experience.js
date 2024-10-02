@@ -67,10 +67,10 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "Smart India Hackathon 2023",
-    subtitle: "Front-end Developer",
+    title: "Smart India Hackathon 2024",
+    subtitle: "API integration & UI/UX",
     image: "assets/images/experience-page/sih.png",
-    desp: "Smart India Hackathon is a nationwide 36-hour Hackathon organized by the MHRD, Govt. of India. It started in the year 2017 and gaining huge success.",
+    desp: "Our Team secured 52 Position in 200 teams of our college",
     href: "https://www.sih.gov.in/",
   },
   {
@@ -79,6 +79,13 @@ const mentor = [
     image: "assets/images/experience-page/xcelerate.png",
     desp: "The Entrepreneurship Cell SNIoE presents Xcelerate 2.0, a business ideation and pitching competition for students to showcase their ideas and to test their entrepreneurial skills, business acumen and creativity.",
     href: "https://unstop.com/competitions/xcelerate-20-shiv-nadar-university-snu-greater-noida-935645",
+  },
+  {
+    title: "Smart India Hackathon 2023",
+    subtitle: "Front-end Developer",
+    image: "assets/images/experience-page/sih.png",
+    desp: "Smart India Hackathon is a nationwide 36-hour Hackathon organized by the MHRD, Govt. of India. It started in the year 2017 and gaining huge success.",
+    href: "https://www.sih.gov.in/",
   },
 ];
 
