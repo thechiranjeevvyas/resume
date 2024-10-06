@@ -11,6 +11,13 @@ const exp = [
     time: "(May, 2023 - Aug 2024)",
     desp: "<li>Designed the whole new website of Raema Solar.</li> <li>Managed all social media handles.</li> <li>Designed all posters and flyers of the company.</li>",
   },
+  {
+    title: "Networking Trainee : Virtual Intern",
+    cardImage: "assets/images/experience-page/cisco.png",
+    place: "CISCO",
+    time: "(June, 2024 - Aug 2024)",
+    desp: "<li>Analyzed and resolved networking and cybersecurity challenges through practical case studies, strengthening technical problem-solving skills.</li> <li>Collaborated with peers and mentors, fostering teamwork and accelerating personal development in IT and security protocols..</li>",
+  },
 ];
 
 const showCards2 = () => {
